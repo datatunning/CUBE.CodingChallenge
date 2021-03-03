@@ -19,7 +19,7 @@
     </mat-sidenav>
 
     <mat-sidenav #notifications mode="over" position="end" class="sidenav">
-      <h1 *ngIf="(alertService.alerts$ | async) == false">No notifications yet !</h1>
+      <h1 *ngIf="(alertService.alerts$ | async) === false">No notifications yet !</h1>
       <mat-card *ngFor="let alert of alertService.alerts$ | async; last as last">
         <mat-card-header>
           <mat-card-title>{{ alert?.title }}</mat-card-title>
