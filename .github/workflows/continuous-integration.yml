@@ -17,15 +17,15 @@ jobs:
       with:
         dotnet-version: 5.0.x    
     - name: Install dependencies
-      run: dotnet restore
+      run: dotnet restore CUBE.CodingChallenge.API/CUBE.CodingChallenge.API.sln
     
     - name: Build
       if: ${{ success() }}
-      run: dotnet build --configuration Release --no-restore --verbosity normal
+      run: dotnet build CUBE.CodingChallenge.API/CUBE.CodingChallenge.API.sln --configuration Release --no-restore --verbosity normal
 
     - name: Test
       if: ${{ success() }}
-      run: dotnet test --configuration Release --no-restore --no-build --verbosity normal  --collect:'XPlat Code Coverage' --settings coverlet.runsettings
+      run: dotnet test CUBE.CodingChallenge.API/CUBE.CodingChallenge.API.sln --configuration Release --no-restore --no-build --verbosity normal  --collect:'XPlat Code Coverage' --settings coverlet.runsettings
     
     - name: Report Coverage
       if: ${{ success() }}
@@ -47,6 +47,7 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
+    - run: cd CUBE.CodingChallenge.Webapp
     - run: npm ci
     - run: npm run build --if-present
     - run: npm test
