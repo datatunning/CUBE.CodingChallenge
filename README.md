@@ -1,4 +1,4 @@
-# Temperature Converter Coding challenge
+# Temperature Converter Coding challenge [![Continuous-Integration](https://github.com/datatunning/CUBE.CodingChallenge/actions/workflows/continuous-integration.yml/badge.svg)](https://github.com/datatunning/CUBE.CodingChallenge/actions/workflows/continuous-integration.yml) [![codecov](https://codecov.io/gh/datatunning/CUBE.CodingChallenge/branch/main/graph/badge.svg?token=9VTYUHFQ0R)](https://codecov.io/gh/datatunning/CUBE.CodingChallenge)
 
 It is important for us to get a sense of how you approach problems, your coding style, and how you produced deployable code.  
 
