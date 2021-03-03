@@ -1,0 +1,30 @@
+<form class="center form-container" [formGroup]="conversionForm" (ngSubmit)="onSubmit()">
+  <h2>Temperature converter</h2>
+  <div>
+    <mat-form-field appearance="fill">
+      <mat-label>Pick a conversion mode</mat-label>
+      <mat-select formControlName="conversionMode" #conversionMode required (selectionChange)="onTemperatureModeChanged(conversionMode.value)">
+        <mat-option>--</mat-option>
+        <mat-option *ngFor="let mode of temperatureConversionModes" [value]="mode" [id]="mode">
+          {{mode}}
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+
+    <mat-form-field appearance="fill">
+      <mat-label>Enter a temperature value</mat-label>
+      <input matInput formControlName="fromValue" name="fromValue">
+    </mat-form-field>
+  </div>
+
+  <div>
+    <button type="submit" mat-fab color="accent" aria-label="Convert temperature">
+      <mat-icon>play_arrow</mat-icon>
+    </button>
+  </div>
+
+  <div *ngIf="conversionForm.valid && convertedValue">
+    <br>
+    <h3>From {{ conversionForm.controls.fromValue.value }} {{ fromUnit }} to {{ convertedValue }} {{ toUnit }}  </h3>
+  </div>
+</form>

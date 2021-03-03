@@ -1,0 +1,80 @@
+{
+    "@angular/animations@11.2.3": {
+        "licenses": "MIT",
+        "repository": "https://github.com/angular/angular",
+        "licenseUrl": "https://github.com/angular/angular",
+        "parents": "cube-codingchallenge-webapp"
+    },
+    "@angular/cdk@10.2.7": {
+        "licenses": "MIT",
+        "repository": "https://github.com/angular/components",
+        "licenseUrl": "https://github.com/angular/components/raw/master/LICENSE",
+        "parents": "cube-codingchallenge-webapp"
+    },
+    "@angular/common@11.2.3": {
+        "licenses": "MIT",
+        "repository": "https://github.com/angular/angular",
+        "licenseUrl": "https://github.com/angular/angular",
+        "parents": "cube-codingchallenge-webapp"
+    },
+    "@angular/compiler@11.2.3": {
+        "licenses": "MIT",
+        "repository": "https://github.com/angular/angular",
+        "licenseUrl": "https://github.com/angular/angular",
+        "parents": "cube-codingchallenge-webapp"
+    },
+    "@angular/core@11.2.3": {
+        "licenses": "MIT",
+        "repository": "https://github.com/angular/angular",
+        "licenseUrl": "https://github.com/angular/angular",
+        "parents": "cube-codingchallenge-webapp"
+    },
+    "@angular/forms@11.2.3": {
+        "licenses": "MIT",
+        "repository": "https://github.com/angular/angular",
+        "licenseUrl": "https://github.com/angular/angular",
+        "parents": "cube-codingchallenge-webapp"
+    },
+    "@angular/material@10.2.7": {
+        "licenses": "MIT",
+        "repository": "https://github.com/angular/components",
+        "licenseUrl": "https://github.com/angular/components/raw/master/LICENSE",
+        "parents": "cube-codingchallenge-webapp"
+    },
+    "@angular/platform-browser-dynamic@11.2.3": {
+        "licenses": "MIT",
+        "repository": "https://github.com/angular/angular",
+        "licenseUrl": "https://github.com/angular/angular",
+        "parents": "cube-codingchallenge-webapp"
+    },
+    "@angular/platform-browser@11.2.3": {
+        "licenses": "MIT",
+        "repository": "https://github.com/angular/angular",
+        "licenseUrl": "https://github.com/angular/angular",
+        "parents": "cube-codingchallenge-webapp"
+    },
+    "@angular/router@11.2.3": {
+        "licenses": "MIT",
+        "repository": "https://github.com/angular/angular",
+        "licenseUrl": "https://github.com/angular/angular",
+        "parents": "cube-codingchallenge-webapp"
+    },
+    "rxjs@6.6.6": {
+        "licenses": "Apache-2.0",
+        "repository": "https://github.com/reactivex/rxjs",
+        "licenseUrl": "https://github.com/reactivex/rxjs/raw/master/LICENSE.txt",
+        "parents": "cube-codingchallenge-webapp"
+    },
+    "tslib@2.1.0": {
+        "licenses": "0BSD",
+        "repository": "https://github.com/Microsoft/tslib",
+        "licenseUrl": "https://github.com/Microsoft/tslib/raw/master/LICENSE.txt",
+        "parents": "cube-codingchallenge-webapp"
+    },
+    "zone.js@0.10.3": {
+        "licenses": "MIT",
+        "repository": "https://github.com/angular/angular",
+        "licenseUrl": "https://github.com/angular/angular/raw/master/LICENSE",
+        "parents": "cube-codingchallenge-webapp"
+    }
+}

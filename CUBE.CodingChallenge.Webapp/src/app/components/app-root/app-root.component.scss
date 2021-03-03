@@ -1,0 +1,21 @@
+
+.spacer {
+  flex: 1 1 auto;
+}
+
+.sidenav-container {
+  position: absolute;
+  top: 60px;
+  bottom: 0px;
+  left: 0;
+  right: 0;
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+.sidenav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+}
